@@ -170,8 +170,8 @@
 
         NUM {
             bindings = <
-&kp MINUS                   &kp EQUAL     &kp PERIOD       &kp AT_SIGN  &kp PLUS                                                 &kp COLON         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LEFT_BRACKET
-&kp SLASH                   &kp QUESTION  &kp EXCLAMATION  &kp MINUS    &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE      &kp UNDERSCORE  &kp SEMICOLON     &kp N4        &kp NUMBER_5  &kp NUMBER_6  &kp RIGHT_BRACKET
+&kp MINUS                   &kp EQUAL     &kp PERIOD       &kp AT_SIGN  &kp PLUS                                                 &kp SEMICOLON     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LEFT_BRACKET
+&kp SLASH                   &kp QUESTION  &kp EXCLAMATION  &kp MINUS    &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE      &kp UNDERSCORE  &kp COLON         &kp N4        &kp NUMBER_5  &kp NUMBER_6  &kp RIGHT_BRACKET
 &mt LEFT_SHIFT KP_NUMBER_0  &kp UNDER     &kp AT           &kp COMMA    &kp PERIOD         &kp EQUAL             &trans          &kp LEFT_BRACKET  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
 &trans                      &trans        &trans           &trans       &trans             &trans                &trans          &trans                                                      &kp PIPE
             >;
