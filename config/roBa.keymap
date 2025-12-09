@@ -62,6 +62,76 @@
             bindings = <&to 0 &macro_param_1to1 &kp MACRO_PLACEHOLDER>;
             label = "TO_LAYER_0";
         };
+
+        tab1: tab1 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp TAB &kp NUMBER_1>;
+            label = "TAB1";
+        };
+
+        tab2: tab2 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp TAB &kp NUMBER_2>;
+            label = "TAB2";
+        };
+
+        tab3: tab3 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp TAB &kp NUMBER_3>;
+            label = "TAB3";
+        };
+
+        tab4: tab4 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp TAB &kp NUMBER_4>;
+            label = "TAB4";
+        };
+
+        tab5: tab5 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp TAB &kp NUMBER_5>;
+            label = "TAB5";
+        };
+
+        tab6: tab6 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp TAB &kp NUMBER_6>;
+            label = "TAB6";
+        };
+
+        cmd1: cmd1 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_GUI &kp NUMBER_1>;
+            label = "CMD1";
+        };
+
+        cmd2: cmd2 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_GUI &kp NUMBER_2>;
+            label = "CMD2";
+        };
+
+        cmd3: cmd3 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_GUI &kp NUMBER_3>;
+            label = "CMD3";
+        };
+
+        cmd4: cmd4 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_GUI &kp NUMBER_4>;
+            label = "CMD4";
+        };
     };
 
     behaviors {
@@ -91,10 +161,10 @@
 
         FUNCTION {
             bindings = <
-&bt BT_SEL 0  &bt BT_SEL 1   &trans       &trans       &trans                                             &kp F1   &kp F2   &kp F3   &kp F4  &kp F5
-&trans        &kp LG(LA(F))  &kp LC(TAB)  &kp LG(TAB)  &kp LS(LG(LA(RIGHT)))  &trans              &trans  &kp F6   &kp F7   &kp F8   &kp F9  &kp F10
-&trans        &trans         &trans       &trans       &trans                 &trans              &trans  &kp F11  &kp F12  &kp F13  &trans  &trans
-&trans        &trans         &trans       &trans       &trans                 &bt BT_CLR_ALL      &trans  &trans                             &trans
+&bt BT_SEL 0  &bt BT_SEL 1  &trans  &trans  &trans                              &kp F1   &kp F2   &kp F3   &kp F4  &kp F5
+&tab1         &tab2         &tab3   &tab4   &tab5   &tab6               &trans  &kp F6   &kp F7   &kp F8   &kp F9  &kp F10
+&cmd1         &cmd2         &cmd3   &cmd4   &trans  &trans              &trans  &kp F11  &kp F12  &kp F13  &trans  &trans
+&trans        &trans        &trans  &trans  &trans  &bt BT_CLR_ALL      &trans  &trans                             &trans
             >;
         };
 
