@@ -162,7 +162,7 @@
         FUNCTION {
             bindings = <
 &bt BT_SEL 0  &bt BT_SEL 1  &trans  &trans  &trans                                            &kp F1         &kp F2   &kp F3           &kp F4  &kp F5
-&ctr1         &ctr2         &ctr3   &ctr4   &ctr5      &ctr6               &trans             &kp F6         &kp F7   &kp F8           &kp F9  &kp F10
+&ctr1         &ctr2         &ctr3   &ctr4   &ctr5      &ctr6               &kp TAB            &kp F6         &kp F7   &kp F8           &kp F9  &kp F10
 &cmd1         &cmd2         &cmd3   &cmd4   &kp LG(C)  &kp LG(V)           &trans             &kp F11        &kp F12  &kp LG(AT_SIGN)  &trans  &trans
 &trans        &trans        &trans  &trans  &trans     &bt BT_CLR_ALL      &kp LS(LG(SPACE))  &kp LC(SPACE)                                    &trans
             >;
@@ -173,7 +173,7 @@
 &kp MINUS                   &kp EQUAL     &kp PERIOD       &kp AT_SIGN  &kp PLUS                                                 &kp SEMICOLON     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LEFT_BRACKET
 &kp SLASH                   &kp QUESTION  &kp EXCLAMATION  &kp MINUS    &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE      &kp UNDERSCORE  &kp COLON         &kp N4        &kp NUMBER_5  &kp NUMBER_6  &kp RIGHT_BRACKET
 &mt LEFT_SHIFT KP_NUMBER_0  &kp UNDER     &kp AT           &kp COMMA    &kp PERIOD         &kp EQUAL             &trans          &kp LEFT_BRACKET  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
-&trans                      &trans        &trans           &trans       &trans             &trans                &trans          &trans                                                      &kp PIPE
+&trans                      &trans        &trans           &trans       &trans             &trans                &trans          &kp LEFT_GUI                                                &kp PIPE
             >;
         };
 
