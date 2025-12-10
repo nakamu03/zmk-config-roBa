@@ -162,7 +162,7 @@
         FUNCTION {
             bindings = <
 &kp RC(LG(NUMBER_1))  &kp LG(RC(NUMBER_2))  &kp LG(RC(NUMBER_3))  &trans            &trans                                       &kp LG(RS(NUMBER_4))  &kp LG(RS(NUMBER_5))  &trans         &trans         &trans
-&ctr1                 &ctr2                 &ctr3                 &ctr4             &ctr5      &ctr6          &kp TAB            &kp LG(AT)            &kp RC(AT)            &kp LG(RS(E))  &kp LG(RS(R))  &trans
+&ctr1                 &ctr2                 &ctr3                 &ctr4             &ctr5      &ctr6          &kp TAB            &kp LG(AT)            &kp LC(AT)            &kp LG(RS(E))  &kp LG(RS(R))  &trans
 &kp RG(NUMBER_1)      &kp LG(NUMBER_2)      &kp LG(NUMBER_3)      &kp LG(NUMBER_4)  &kp LG(C)  &kp LG(V)      &trans             &trans                &trans                &kp LG(RS(S))  &kp LG(RS(D))  &trans
 &trans                &trans                &trans                &trans            &trans     &trans         &kp LS(LG(SPACE))  &kp LC(SPACE)                                                             &trans
             >;
@@ -170,10 +170,10 @@
 
         NUM {
             bindings = <
-&kp MINUS                   &kp EQUAL     &kp PERIOD       &kp AT_SIGN  &kp PLUS                                                 &kp SEMICOLON     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LEFT_BRACKET
-&kp SLASH                   &kp QUESTION  &kp EXCLAMATION  &kp MINUS    &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE      &kp UNDERSCORE  &kp COLON         &kp N4        &kp NUMBER_5  &kp NUMBER_6  &kp RIGHT_BRACKET
-&mt LEFT_SHIFT KP_NUMBER_0  &kp UNDER     &kp AT           &kp COMMA    &kp PERIOD         &kp EQUAL             &trans          &kp LEFT_BRACKET  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
-&trans                      &trans        &trans           &trans       &trans             &trans                &trans          &kp LEFT_GUI                                                &kp PIPE
+&kp MINUS                   &kp EQUAL     &kp PERIOD       &kp GRAVE  &kp PLUS                                                 &kp SEMICOLON     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LEFT_BRACKET
+&kp SLASH                   &kp QUESTION  &kp EXCLAMATION  &kp MINUS  &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE      &kp UNDERSCORE  &kp COLON         &kp N4        &kp NUMBER_5  &kp NUMBER_6  &kp RIGHT_BRACKET
+&mt LEFT_SHIFT KP_NUMBER_0  &kp UNDER     &kp AT           &kp COMMA  &kp PERIOD         &kp EQUAL             &trans          &kp LEFT_BRACKET  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
+&trans                      &trans        &trans           &trans     &trans             &trans                &trans          &kp LEFT_GUI                                                &kp PIPE
             >;
         };
 
