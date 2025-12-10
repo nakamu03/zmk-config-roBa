@@ -161,7 +161,7 @@
 
         FUNCTION {
             bindings = <
-&kp RC(LG(NUMBER_1))  &kp LG(RC(NUMBER_2))  &kp LG(RC(NUMBER_3))  &trans  &trans                                       &kp LG(RC(NUMBER_4))  &kp LG(RC(NUMBER_5))  &trans         &trans         &trans
+&kp RC(LG(NUMBER_1))  &kp LG(RC(NUMBER_2))  &kp LG(RC(NUMBER_3))  &trans  &trans                                       &kp LG(RS(NUMBER_4))  &kp LG(RS(NUMBER_5))  &trans         &trans         &trans
 &ctr1                 &ctr2                 &ctr3                 &ctr4   &ctr5      &ctr6          &kp TAB            &kp LG(SINGLE_QUOTE)  &kp RC(SINGLE_QUOTE)  &kp LG(RS(E))  &kp LG(RS(R))  &trans
 &cmd1                 &cmd2                 &cmd3                 &cmd4   &kp LG(C)  &kp LG(V)      &trans             &trans                &trans                &kp LG(RS(S))  &kp LG(RS(D))  &trans
 &trans                &trans                &trans                &trans  &trans     &trans         &kp LS(LG(SPACE))  &kp LC(SPACE)                                                             &trans
