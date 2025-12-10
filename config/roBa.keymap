@@ -161,10 +161,10 @@
 
         FUNCTION {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                                       &kp F1         &kp F2   &kp F3           &kp F4  &kp F5
-&ctr1   &ctr2   &ctr3   &ctr4   &ctr5      &ctr6          &kp TAB            &kp F6         &kp F7   &kp F8           &kp F9  &kp F10
-&cmd1   &cmd2   &cmd3   &cmd4   &kp LG(C)  &kp LG(V)      &trans             &kp F11        &kp F12  &kp LG(AT_SIGN)  &trans  &trans
-&trans  &trans  &trans  &trans  &trans     &trans         &kp LS(LG(SPACE))  &kp LC(SPACE)                                    &trans
+&trans  &trans  &trans  &trans  &trans                                       &trans           &trans      &trans         &trans         &trans
+&ctr1   &ctr2   &ctr3   &ctr4   &ctr5      &ctr6          &kp TAB            &kp LG(AT_SIGN)  &kp RC(AT)  &kp LG(RC(E))  &kp RC(LG(R))  &trans
+&cmd1   &cmd2   &cmd3   &cmd4   &kp LG(C)  &kp LG(V)      &trans             &trans           &trans      &kp LG(RC(S))  &kp RC(LG(D))  &trans
+&trans  &trans  &trans  &trans  &trans     &trans         &kp LS(LG(SPACE))  &kp LC(SPACE)                                              &trans
             >;
         };
 
