@@ -191,7 +191,7 @@
         MOUSE {
             bindings = <
 &trans        &trans        &trans        &trans        &trans                                     &trans        &trans    &trans    &trans    &trans
-&trans        &trans        &trans        &trans        &trans        &trans            &kp TAB    &trans        &mkp MB1  &mkp MB3  &mkp MB2  &trans
+&trans        &trans        &trans        &trans        &trans        &trans            &kp TAB    &trans        &mkp MB1  &mkp MB3  &mkp MB2  &kp C_VOICE_COMMAND
 &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6      &kp RCTRL  &trans        &trans    &trans    &trans    &kp RIGHT_SHIFT
 &trans        &trans        &trans        &trans        &trans        &trans            &kp TAB    &kp LEFT_GUI                                &trans
             >;
