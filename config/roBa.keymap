@@ -161,10 +161,10 @@
 
         FUNCTION {
             bindings = <
-&bt BT_SEL 0  &bt BT_SEL 1  &trans  &trans  &trans                                            &kp F1         &kp F2   &kp F3           &kp F4  &kp F5
-&ctr1         &ctr2         &ctr3   &ctr4   &ctr5      &ctr6               &kp TAB            &kp F6         &kp F7   &kp F8           &kp F9  &kp F10
-&cmd1         &cmd2         &cmd3   &cmd4   &kp LG(C)  &kp LG(V)           &trans             &kp F11        &kp F12  &kp LG(AT_SIGN)  &trans  &trans
-&trans        &trans        &trans  &trans  &trans     &bt BT_CLR_ALL      &kp LS(LG(SPACE))  &kp LC(SPACE)                                    &trans
+&trans  &trans  &trans  &trans  &trans                                       &kp F1         &kp F2   &kp F3           &kp F4  &kp F5
+&ctr1   &ctr2   &ctr3   &ctr4   &ctr5      &ctr6          &kp TAB            &kp F6         &kp F7   &kp F8           &kp F9  &kp F10
+&cmd1   &cmd2   &cmd3   &cmd4   &kp LG(C)  &kp LG(V)      &trans             &kp F11        &kp F12  &kp LG(AT_SIGN)  &trans  &trans
+&trans  &trans  &trans  &trans  &trans     &trans         &kp LS(LG(SPACE))  &kp LC(SPACE)                                    &trans
             >;
         };
 
@@ -190,7 +190,7 @@
 
         MOUSE {
             bindings = <
-&trans        &bt BT_SEL 1  &trans        &trans        &trans                                     &trans        &trans    &trans    &trans    &trans
+&trans        &trans        &trans        &trans        &trans                                     &trans        &trans    &trans    &trans    &trans
 &trans        &trans        &trans        &trans        &trans        &trans            &kp TAB    &trans        &mkp MB1  &mkp MB3  &mkp MB2  &trans
 &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6      &kp RCTRL  &trans        &trans    &trans    &trans    &kp RIGHT_SHIFT
 &trans        &trans        &trans        &trans        &trans        &trans            &kp TAB    &kp LEFT_GUI                                &trans
