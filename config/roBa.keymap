@@ -162,7 +162,7 @@
         FUNCTION {
             bindings = <
 &kp RC(LG(NUMBER_1))  &kp LG(RC(NUMBER_2))  &kp LG(RC(NUMBER_3))  &trans            &trans                                       &kp LG(RS(NUMBER_4))  &kp LG(RS(NUMBER_5))  &trans         &trans         &trans
-&ctr1                 &ctr2                 &ctr3                 &ctr4             &ctr5      &ctr6          &kp TAB            &kp LG(LEFT_BRACKET)  &kp LC(LEFT_BRACKET)  &kp LG(RS(E))  &kp LG(RS(R))  &trans
+&ctr1                 &ctr2                 &ctr3                 &ctr4             &ctr5      &ctr6          &kp TAB            &kp LS(LG(NUMBER_2))  &kp LC(LS(NUMBER_2))  &kp LG(RS(E))  &kp LG(RS(R))  &trans
 &kp RG(NUMBER_1)      &kp LG(NUMBER_2)      &kp LG(NUMBER_3)      &kp LG(NUMBER_4)  &kp LG(C)  &kp LG(V)      &trans             &trans                &trans                &kp LG(RS(S))  &kp LG(RS(D))  &trans
 &trans                &trans                &trans                &trans            &trans     &trans         &kp LS(LG(SPACE))  &kp LC(SPACE)                                                             &trans
             >;
