@@ -162,10 +162,10 @@
 
         FUNCTION {
             bindings = <
-&kp RC(LG(NUMBER_1))  &kp LG(RC(NUMBER_2))  &kp LG(RC(NUMBER_3))  &trans            &trans                                   &kp LG(RS(NUMBER_4))   &kp LG(RS(NUMBER_5))  &trans         &trans         &trans
-&ctr1                 &ctr2                 &ctr3                 &ctr4             &ctr5      &ctr6          &kp TAB        &kp LA(LS(LC(RIGHT)))  &kp LC(LEFT_BRACE)    &kp LG(RS(E))  &kp LG(RS(R))  &kp LG(LEFT_BRACKET)
-&kp RG(NUMBER_1)      &kp LG(NUMBER_2)      &kp LG(NUMBER_3)      &kp LG(NUMBER_4)  &kp LG(C)  &kp LG(V)      &trans         &trans                 &kp LS(LG(J))         &kp LG(RS(S))  &kp LG(RS(D))  &kp LG(RIGHT_BRACKET)
-&trans                &trans                &trans                &trans            &trans     &trans         &kp LS(LG(J))  &kp LG(LS(SPACE))                                                          &trans
+&kp RC(LG(NUMBER_1))  &kp LG(RC(NUMBER_2))  &kp LG(RC(NUMBER_3))  &trans            &trans                                   &kp LG(RS(NUMBER_4))   &kp LG(RS(NUMBER_5))  &kp K_PLAY_PAUSE  &trans         &trans
+&ctr1                 &ctr2                 &ctr3                 &ctr4             &ctr5      &ctr6          &kp TAB        &kp LA(LS(LC(RIGHT)))  &kp LC(LEFT_BRACE)    &kp LG(RS(E))     &kp LG(RS(R))  &kp LG(LEFT_BRACKET)
+&kp RG(NUMBER_1)      &kp LG(NUMBER_2)      &kp LG(NUMBER_3)      &kp LG(NUMBER_4)  &kp LG(C)  &kp LG(V)      &trans         &trans                 &kp LS(LG(J))         &kp LG(RS(S))     &kp LG(RS(D))  &kp LG(RIGHT_BRACKET)
+&trans                &trans                &trans                &trans            &trans     &trans         &kp LS(LG(J))  &kp LG(LS(SPACE))                                                             &trans
             >;
         };
 
