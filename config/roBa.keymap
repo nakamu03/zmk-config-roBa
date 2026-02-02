@@ -192,7 +192,7 @@
         MOUSE {
             bindings = <
 &trans          &trans  &trans         &trans  &trans                         &trans        &kp PAGE_UP  &trans    &trans    &trans
-&trans          &trans  &kp PAGE_DOWN  &trans  &trans  &trans      &kp TAB    &trans        &mkp MB1     &mkp MB3  &mkp MB2  &kp C_VOICE_COMMAND
+&trans          &trans  &kp PAGE_DOWN  &trans  &trans  &trans      &kp TAB    &trans        &mkp MB1     &mkp MB3  &mkp MB2  &kp LG(LA(COMMA))
 &kp LEFT_SHIFT  &trans  &trans         &trans  &trans  &trans      &kp RCTRL  &trans        &trans       &trans    &trans    &kp RIGHT_SHIFT
 &trans          &trans  &trans         &trans  &trans  &trans      &kp TAB    &kp LEFT_GUI                                   &trans
             >;
